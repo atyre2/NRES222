@@ -1,0 +1,9 @@
+Package: NRES222
+Version: 0.0.0.9000
+Title: Report Templates and Functions for NRES 222 Ecology Lab
+Description: Rmarkdown templates for worksheets and lab reports in NRES 222 Ecology Lab at the University of Nebraska - Lincoln.
+Authors@R: person("Andrew", "Tyre", , "atyre2@unl.edu", c("aut", "cre"))
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+ByteCompile: true
