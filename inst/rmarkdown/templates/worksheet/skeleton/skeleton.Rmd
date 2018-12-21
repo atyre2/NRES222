@@ -1,0 +1,25 @@
+---
+title: "Default worksheet template"
+author: "Your name here"
+date: `r Sys.Date()`
+output: html_document
+---
+
+```{r setup, include=FALSE}
+# this code chunk will not produce any output. 
+# Your submitted worksheets should have echo = FALSE below. 
+knitr::opts_chunk$set(echo = FALSE)
+# this is a good place to load packages. 
+library("tidyverse")
+```
+
+# Section 1
+
+1) This will be the first question. Copy and paste the question text here. 
+
+> This will be the answer to the first question. Be sure to mark it with ">"
+
+```{r}
+# Insert data analysis and graphing code chunks *below* your text answers.
+```
+
