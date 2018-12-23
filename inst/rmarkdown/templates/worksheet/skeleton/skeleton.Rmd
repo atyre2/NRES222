@@ -1,7 +1,7 @@
 ---
 title: "Default worksheet template"
 author: "Your name here"
-date: `r Sys.Date()`
+date: "`r Sys.Date()`"
 output: html_document
 ---
 
