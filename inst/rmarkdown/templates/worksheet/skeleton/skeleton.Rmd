@@ -8,10 +8,14 @@ output: html_document
 ```{r setup, include=FALSE}
 # this code chunk will not produce any output. 
 # Your submitted worksheets should have echo = FALSE below. 
+# Normally change nothing between line 12 and 15
 knitr::opts_chunk$set(echo = FALSE)
-# this is a good place to load packages. 
 library("tidyverse")
 theme_set(theme_nres()) # this adjusts the default appearance of plots
+# this is a good place to load packages. 
+# library("somepackage")
+# this is also a good place to load data
+# yourdata <- read_csv("pathtofile")
 ```
 
 # Section 1
