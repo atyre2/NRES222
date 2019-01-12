@@ -11,6 +11,7 @@ output: html_document
 knitr::opts_chunk$set(echo = FALSE)
 # this is a good place to load packages. 
 library("tidyverse")
+theme_set(theme_nres()) # this adjusts the default appearance of plots
 ```
 
 # Section 1
