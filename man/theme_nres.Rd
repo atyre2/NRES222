@@ -4,12 +4,17 @@
 \alias{theme_nres}
 \title{Default NRES theme}
 \usage{
-theme_nres(base_size = 16, base_family = "sans")
+theme_nres(base_size = 16, base_family = "sans",
+  base_line_size = base_size/22, base_rect_size = base_size/22)
 }
 \arguments{
 \item{base_size}{base font size}
 
 \item{base_family}{base font family (default = sans)}
+
+\item{base_line_size}{base size for line elements}
+
+\item{base_rect_size}{base size for rect elements}
 }
 \value{
 a ggplot2 theme object
