@@ -11,7 +11,7 @@ output: html_document
 # Normally change nothing between line 12 and 15
 knitr::opts_chunk$set(echo = FALSE)
 library("tidyverse")
-theme_set(theme_nres()) # this adjusts the default appearance of plots
+theme_set(NRES222::theme_nres()) # this adjusts the default appearance of plots
 # this is a good place to load packages. 
 # library("somepackage")
 # this is also a good place to load data
